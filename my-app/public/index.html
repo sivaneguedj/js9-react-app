@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS9 React App</title>
+    <!-- JS9 CSS -->
+    <link rel="stylesheet" type="text/css" href="/js9-master/js9-master/js9.css" />
+    <link rel="icon" href="/js9-master/js9-master/favicon.ico">
+
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <!-- JS9 JavaScript -->
+    <script src="/js9-master/js9-master/js/fabric.min.js"></script>
+    <script src="/js9-master/js9-master/js/jquery-3.5.0.min.js"></script>
+    <script src="/js9-master/js9-master/js9prefs.js"></script>
+    <script src="/js9-master/js9-master/js/dhtmlwindow.js"></script>
+    <script src="http://localhost:5000/socket.io/socket.io.js"></script>
+
+    <!-- <script src="/js9-master/js9-master/js9support.min.js"></script> -->
+    <script src="/js9-master/js9-master/js9.min.js"></script>
+    <script src="/js9-master/js9-master/plugins/fitsy/fitsy.js"></script>
+    <script src="/js9-master/js9-master/astroem.js"></script>
+
+    <!-- <script src="lib/fits.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script type="text/javascript">
+      var FITS = astro.FITS;
+    </script> -->
+    
+    
+    <script>
+      console.log("Fabric.js loaded:", typeof fabric !== "undefined");
+      console.log(JS9.VERSION);
+      console.log("astroem.js loaded:", typeof JS9.Astroem !== "undefined");
+      console.log("fitsy.js loaded:", typeof JS9.FITS !== "undefined");
+  </script>
+    </body>
+</html>
